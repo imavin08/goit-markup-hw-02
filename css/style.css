@@ -1,0 +1,69 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: rgba(255, 255, 255, 0.6);
+  --accent: #2196f3;
+}
+body {
+  font-family: "Roboto", Sans-serif;
+  color:var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* ---------Header--------------- */
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent);
+}
+
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent);
+}
+
+.header-logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--accent)
+}
+
+.header-peace-logo {
+    color: #000000;
+}
+
+.header-logo:focus {
+    color: var(--accent);
+}
