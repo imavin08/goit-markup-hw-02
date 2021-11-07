@@ -4,10 +4,13 @@
   --main-text-color: #757575;
   --second-text-color: rgba(255, 255, 255, 0.6);
   --accent: #2196f3;
+  --background: #2f303a;
+  --background-portfolio-btn: #f5f4fa;
 }
+
 body {
   font-family: "Roboto", Sans-serif;
-  color:var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 .list {
@@ -28,42 +31,205 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .header-mail,
 .header-tel {
-  font-weight: 500;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.14
-  letter-spacing: 0.02em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
 .header-mail:hover,
 .header-mail:focus {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .header-tel:hover,
 .header-tel:focus {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .header-logo {
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color:var(--accent)
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent);
 }
 
 .header-peace-logo {
-    color: #000000;
+  color: #000000;
 }
 
 .header-logo:focus {
-    color: var(--accent);
+  color: var(--accent);
+}
+
+/* --------------Hero section ------------------*/
+
+.hero {
+  background-color: var(--background);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+  background-color: var(--accent);
+  border: none;
+}
+
+/* ---------------About---------------- */
+
+.aboutus-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+.aboutus-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* -----------ourwork----------- */
+
+.ourwork {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/* -----------Team----------- */
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* -----------Footer---------- */
+
+.footer {
+  background-color: var(--background);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+}
+
+.footer-peace-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+/* ---------Addres---------- */
+
+.location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.mailtel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.mailtel:hover,
+.mailtel:focus {
+  color: var(--accent);
+}
+
+.location:hover,
+.location:focus {
+  color: var(--accent);
+}
+
+/* --------- Portfolio----------- */
+
+.btn-item:hover,
+.btn-item:focus {
+  color: var(--accent);
+}
+
+.btn-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  background-color: var(--background-portfolio-btn);
+  border: none;
 }
