@@ -40,8 +40,7 @@ body {
 
 .header-mail,
 .header-tel {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -59,7 +58,7 @@ body {
 }
 
 .header-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -110,7 +109,7 @@ body {
 /* ---------------About---------------- */
 
 .aboutus-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -118,7 +117,6 @@ body {
   color: var(--second-title-color);
 }
 .aboutus-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -138,7 +136,7 @@ body {
 
 /* -----------Team----------- */
 .team {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -156,7 +154,6 @@ body {
 }
 
 .team-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -194,7 +191,6 @@ body {
 
 .location {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,7 +199,6 @@ body {
 
 .mailtel {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -243,7 +238,7 @@ body {
 
 /* ----------main------------------ */
 .main-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -251,9 +246,8 @@ body {
 }
 
 .main-text {
-  font-weight: normal;
   font-size: 16px;
-  line-height: 1.87x;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
