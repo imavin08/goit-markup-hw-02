@@ -34,6 +34,10 @@ body {
   color: var(--accent);
 }
 
+.current {
+  color: var(--accent);
+}
+
 .header-mail,
 .header-tel {
   font-style: normal;
@@ -216,10 +220,11 @@ body {
 }
 
 /* --------- Portfolio----------- */
-
+/* -----------Button------------- */
 .btn-item:hover,
 .btn-item:focus {
-  color: var(--accent);
+  color: var(--main-title-color);
+  background-color: var(--accent);
 }
 
 .btn-item {
@@ -232,4 +237,21 @@ body {
   color: var(--second-title-color);
   background-color: var(--background-portfolio-btn);
   border: none;
+}
+
+/* ----------main------------------ */
+.main-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.main-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87x;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
