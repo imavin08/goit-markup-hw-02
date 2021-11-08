@@ -104,6 +104,7 @@ body {
   color: var(--main-title-color);
   background-color: var(--accent);
   border: none;
+  cursor: pointer;
 }
 
 /* ---------------About---------------- */
@@ -237,6 +238,7 @@ body {
   color: var(--second-title-color);
   background-color: var(--background-portfolio-btn);
   border: none;
+  cursor: pointer;
 }
 
 /* ----------main------------------ */
